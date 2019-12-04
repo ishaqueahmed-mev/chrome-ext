@@ -1,14 +1,13 @@
 {
     "manifest_version": 2,
     "name": "My Ext",
-    "description": "The most popular movies and TV shows in your   default tab. Includes ratings, summaries and the ability to watch trailers.",
+    "description": "An extension for changing chrome new tab page background.",
     "version": "1",
     "author": "Jak Prins",
     "browser_action": {
         "default_icon": "get_started16.png",
-        "default_title": "Have a good day"
+        "default_title": "Have a good tab"
     },
-    
     "chrome_url_overrides": {
         "newtab": "newtab.html"
     },
